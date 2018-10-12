@@ -3,6 +3,6 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 	get '/' do
-		arb: index.erb
+		erb: index
 	end
 end
